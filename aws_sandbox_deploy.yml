@@ -21,8 +21,8 @@
         vpc_subnet_id: subnet-e45a7a8c
         assign_public_ip: yes
         instance_tags:
-          Name: "Jonathan's Awesome Instance"
-          location: ohio-ansible-cluster
+          Name: "Jaa Instance"
+          location: NE-ansible-cluster
       register: ec2
 
     - name: Ensure new instance is in host group
